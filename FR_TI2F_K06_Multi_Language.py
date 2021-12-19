@@ -80,7 +80,6 @@ class Translator(QWidget):
         tts = gtts.gTTS(translated, lang=target)
         os.remove('sample.mp3')
         tts.save('sample.mp3')
-
         #Ganti Sesuai Directory Sample MP3 Kalian Masing Masing
         playsound('C:/Users/IQRIMA/KBTItubes/sample.mp3')
         
